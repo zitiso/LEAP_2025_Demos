@@ -1,0 +1,334 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.navigation:navigation-common:2.8.0] /home/zitiso/.gradle/caches/8.13/transforms/adeb8d670508e28a5a37036a31f973f1/transformed/navigation-common-2.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.0] /home/zitiso/.gradle/caches/8.13/transforms/6943f7f0899819234ef1e7710f771348/transformed/navigation-runtime-2.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.0] /home/zitiso/.gradle/caches/8.13/transforms/4ec249e56584f49efc45d7704a2e1bce/transformed/navigation-common-ktx-2.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.0] /home/zitiso/.gradle/caches/8.13/transforms/9d90906940f9ac673d0d4e3998e5ca64/transformed/navigation-runtime-ktx-2.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.0] /home/zitiso/.gradle/caches/8.13/transforms/d85c8fa4db49153e75a4680a696f7197/transformed/navigation-compose-2.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.2] /home/zitiso/.gradle/caches/8.13/transforms/0acb7b938b1af3478e62df1d74f37cb2/transformed/activity-1.9.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/3ee648fe7f88ef9105b93e22507dda86/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/5921a84b33d26ee87026ba78f7ca2872/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/3fc40c6fe1f81c5256f414142657ed9f/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/a01d6487ccc8b6f1126d0e82b7098b23/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/76de365fc51fdd8fa1eb1268be790a88/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/e90dc5e4d9773ec7d721446bbc75bcf0/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/71cb804dd305fcf0fa67cc2359d856eb/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/e605eb746a4a5c5325424a9c174f64b7/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/127e2eca17b920e85484564e86da0f2b/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/2ac28956e1ed5d535813be1d1d56b401/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/193edb5a4ee016123e05954bdd3ce1ca/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/ab2f327c4125c3445d11fdad86b7b4a0/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/b15ab666ea9121f1416865d5ae49f8f3/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/f847fdd95104ac1fc1f1d989c1e92cf5/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/c60228fbb27942e80db6e99ca280d946/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/zitiso/.gradle/caches/8.13/transforms/8f37428f838a5c23d2f97e561845f9ab/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/zitiso/.gradle/caches/8.13/transforms/ee7e013265571dbaab06738f03e67ad0/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/zitiso/.gradle/caches/8.13/transforms/4dc9212d14e9087111f5316359ea3df8/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/f67d05b7fc5a4d50e5e9a8e82bf1f0ea/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/0259cd74bc0e54ef72e201009860df3a/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/1ae56e502abf942c91d8504a8b877345/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/zitiso/.gradle/caches/8.13/transforms/90dd7c9c2f2941be5c6a8cd5ffbd173a/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/zitiso/.gradle/caches/8.13/transforms/b7a3d1675428b20311c0534dd6c3456b/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/zitiso/.gradle/caches/8.13/transforms/7b4175279b9014d4e6a85e9fb230079f/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/e18e679a65b4715bc77e747bc1ff9a9b/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/76893d10cf54eead763941ea3bc93756/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/007953d10e540b2d252a63daf041465e/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/0bdc701ec70ab94e9f8c4eac31e5e22e/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/7b787d6d027ace7f494e53e949811129/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/2165747fac5ba7c5b840e1707900a6ab/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/1b382a16927da4bfc7d1a0822a4ce585/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/039a29b7aa6377a9730520980259c9ea/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/7d6dca25b383c2bd3a3e28ed7ebdfd55/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/24196915acbb7769f89ee680ceb45da4/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.2] /home/zitiso/.gradle/caches/8.13/transforms/0672012611414557014552533346353a/transformed/activity-ktx-1.9.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.2] /home/zitiso/.gradle/caches/8.13/transforms/85055d8cf412c42159e196dd0958294a/transformed/activity-compose-1.9.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/1f2e0df80352308ed6df4651704c5130/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/46f89dfb2e2062fbe7f5c367d99ecff2/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/zitiso/.gradle/caches/8.13/transforms/c0b3cc3ff33e7a3219d426276d19aa9d/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zitiso/.gradle/caches/8.13/transforms/ed79a0827b6893e87659b1ed56cde8bb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zitiso/.gradle/caches/8.13/transforms/e71d381b589c55f50aeca5399a3397c8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/zitiso/.gradle/caches/8.13/transforms/15c558d63c72959a17de2eb51d1691d7/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/zitiso/.gradle/caches/8.13/transforms/0fdce7872af6205ba1e8581c8f527880/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/zitiso/.gradle/caches/8.13/transforms/afcda5f69de9a4ae0937d594f5df705f/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:7:5-27:19
+INJECTED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:7:5-27:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/c60228fbb27942e80db6e99ca280d946/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/c60228fbb27942e80db6e99ca280d946/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/zitiso/.gradle/caches/8.13/transforms/4dc9212d14e9087111f5316359ea3df8/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/zitiso/.gradle/caches/8.13/transforms/4dc9212d14e9087111f5316359ea3df8/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/f67d05b7fc5a4d50e5e9a8e82bf1f0ea/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/f67d05b7fc5a4d50e5e9a8e82bf1f0ea/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/76893d10cf54eead763941ea3bc93756/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/76893d10cf54eead763941ea3bc93756/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zitiso/.gradle/caches/8.13/transforms/ed79a0827b6893e87659b1ed56cde8bb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zitiso/.gradle/caches/8.13/transforms/ed79a0827b6893e87659b1ed56cde8bb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zitiso/.gradle/caches/8.13/transforms/e71d381b589c55f50aeca5399a3397c8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zitiso/.gradle/caches/8.13/transforms/e71d381b589c55f50aeca5399a3397c8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/76893d10cf54eead763941ea3bc93756/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:12:9-41
+	android:fullBackupContent
+		ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:10:9-54
+	android:roundIcon
+		ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:13:9-54
+	tools:targetApi
+		ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:16:9-29
+	android:icon
+		ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:15:9-53
+	android:dataExtractionRules
+		ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:9:9-65
+activity#com.example.materialdemoapp.MainActivity
+ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:17:9-26:20
+	android:exported
+		ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:19:13-36
+	android:theme
+		ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:20:13-57
+	android:name
+		ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:18:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml:24:27-74
+uses-sdk
+INJECTED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-common:2.8.0] /home/zitiso/.gradle/caches/8.13/transforms/adeb8d670508e28a5a37036a31f973f1/transformed/navigation-common-2.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.0] /home/zitiso/.gradle/caches/8.13/transforms/adeb8d670508e28a5a37036a31f973f1/transformed/navigation-common-2.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.0] /home/zitiso/.gradle/caches/8.13/transforms/6943f7f0899819234ef1e7710f771348/transformed/navigation-runtime-2.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.0] /home/zitiso/.gradle/caches/8.13/transforms/6943f7f0899819234ef1e7710f771348/transformed/navigation-runtime-2.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.0] /home/zitiso/.gradle/caches/8.13/transforms/4ec249e56584f49efc45d7704a2e1bce/transformed/navigation-common-ktx-2.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.0] /home/zitiso/.gradle/caches/8.13/transforms/4ec249e56584f49efc45d7704a2e1bce/transformed/navigation-common-ktx-2.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.0] /home/zitiso/.gradle/caches/8.13/transforms/9d90906940f9ac673d0d4e3998e5ca64/transformed/navigation-runtime-ktx-2.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.0] /home/zitiso/.gradle/caches/8.13/transforms/9d90906940f9ac673d0d4e3998e5ca64/transformed/navigation-runtime-ktx-2.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.0] /home/zitiso/.gradle/caches/8.13/transforms/d85c8fa4db49153e75a4680a696f7197/transformed/navigation-compose-2.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.0] /home/zitiso/.gradle/caches/8.13/transforms/d85c8fa4db49153e75a4680a696f7197/transformed/navigation-compose-2.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.2] /home/zitiso/.gradle/caches/8.13/transforms/0acb7b938b1af3478e62df1d74f37cb2/transformed/activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.2] /home/zitiso/.gradle/caches/8.13/transforms/0acb7b938b1af3478e62df1d74f37cb2/transformed/activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/3ee648fe7f88ef9105b93e22507dda86/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/3ee648fe7f88ef9105b93e22507dda86/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/5921a84b33d26ee87026ba78f7ca2872/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/5921a84b33d26ee87026ba78f7ca2872/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/3fc40c6fe1f81c5256f414142657ed9f/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/3fc40c6fe1f81c5256f414142657ed9f/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/a01d6487ccc8b6f1126d0e82b7098b23/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/a01d6487ccc8b6f1126d0e82b7098b23/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/76de365fc51fdd8fa1eb1268be790a88/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/76de365fc51fdd8fa1eb1268be790a88/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/e90dc5e4d9773ec7d721446bbc75bcf0/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/e90dc5e4d9773ec7d721446bbc75bcf0/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/71cb804dd305fcf0fa67cc2359d856eb/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/71cb804dd305fcf0fa67cc2359d856eb/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/e605eb746a4a5c5325424a9c174f64b7/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/e605eb746a4a5c5325424a9c174f64b7/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/127e2eca17b920e85484564e86da0f2b/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/127e2eca17b920e85484564e86da0f2b/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/2ac28956e1ed5d535813be1d1d56b401/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/2ac28956e1ed5d535813be1d1d56b401/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/193edb5a4ee016123e05954bdd3ce1ca/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/193edb5a4ee016123e05954bdd3ce1ca/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/ab2f327c4125c3445d11fdad86b7b4a0/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/ab2f327c4125c3445d11fdad86b7b4a0/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/b15ab666ea9121f1416865d5ae49f8f3/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/b15ab666ea9121f1416865d5ae49f8f3/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/f847fdd95104ac1fc1f1d989c1e92cf5/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/f847fdd95104ac1fc1f1d989c1e92cf5/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/c60228fbb27942e80db6e99ca280d946/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/c60228fbb27942e80db6e99ca280d946/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/zitiso/.gradle/caches/8.13/transforms/8f37428f838a5c23d2f97e561845f9ab/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/zitiso/.gradle/caches/8.13/transforms/8f37428f838a5c23d2f97e561845f9ab/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/zitiso/.gradle/caches/8.13/transforms/ee7e013265571dbaab06738f03e67ad0/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/zitiso/.gradle/caches/8.13/transforms/ee7e013265571dbaab06738f03e67ad0/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/zitiso/.gradle/caches/8.13/transforms/4dc9212d14e9087111f5316359ea3df8/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/zitiso/.gradle/caches/8.13/transforms/4dc9212d14e9087111f5316359ea3df8/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/f67d05b7fc5a4d50e5e9a8e82bf1f0ea/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/f67d05b7fc5a4d50e5e9a8e82bf1f0ea/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/0259cd74bc0e54ef72e201009860df3a/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/0259cd74bc0e54ef72e201009860df3a/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/1ae56e502abf942c91d8504a8b877345/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/1ae56e502abf942c91d8504a8b877345/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /home/zitiso/.gradle/caches/8.13/transforms/90dd7c9c2f2941be5c6a8cd5ffbd173a/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/zitiso/.gradle/caches/8.13/transforms/90dd7c9c2f2941be5c6a8cd5ffbd173a/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/zitiso/.gradle/caches/8.13/transforms/b7a3d1675428b20311c0534dd6c3456b/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/zitiso/.gradle/caches/8.13/transforms/b7a3d1675428b20311c0534dd6c3456b/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/zitiso/.gradle/caches/8.13/transforms/7b4175279b9014d4e6a85e9fb230079f/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/zitiso/.gradle/caches/8.13/transforms/7b4175279b9014d4e6a85e9fb230079f/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/e18e679a65b4715bc77e747bc1ff9a9b/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/e18e679a65b4715bc77e747bc1ff9a9b/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/76893d10cf54eead763941ea3bc93756/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/76893d10cf54eead763941ea3bc93756/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/007953d10e540b2d252a63daf041465e/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/007953d10e540b2d252a63daf041465e/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/0bdc701ec70ab94e9f8c4eac31e5e22e/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/0bdc701ec70ab94e9f8c4eac31e5e22e/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/7b787d6d027ace7f494e53e949811129/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/7b787d6d027ace7f494e53e949811129/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/2165747fac5ba7c5b840e1707900a6ab/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/2165747fac5ba7c5b840e1707900a6ab/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/1b382a16927da4bfc7d1a0822a4ce585/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/1b382a16927da4bfc7d1a0822a4ce585/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/039a29b7aa6377a9730520980259c9ea/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/039a29b7aa6377a9730520980259c9ea/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/7d6dca25b383c2bd3a3e28ed7ebdfd55/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/7d6dca25b383c2bd3a3e28ed7ebdfd55/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/24196915acbb7769f89ee680ceb45da4/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/24196915acbb7769f89ee680ceb45da4/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] /home/zitiso/.gradle/caches/8.13/transforms/0672012611414557014552533346353a/transformed/activity-ktx-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] /home/zitiso/.gradle/caches/8.13/transforms/0672012611414557014552533346353a/transformed/activity-ktx-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] /home/zitiso/.gradle/caches/8.13/transforms/85055d8cf412c42159e196dd0958294a/transformed/activity-compose-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] /home/zitiso/.gradle/caches/8.13/transforms/85055d8cf412c42159e196dd0958294a/transformed/activity-compose-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/1f2e0df80352308ed6df4651704c5130/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/1f2e0df80352308ed6df4651704c5130/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/46f89dfb2e2062fbe7f5c367d99ecff2/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/46f89dfb2e2062fbe7f5c367d99ecff2/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/zitiso/.gradle/caches/8.13/transforms/c0b3cc3ff33e7a3219d426276d19aa9d/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/zitiso/.gradle/caches/8.13/transforms/c0b3cc3ff33e7a3219d426276d19aa9d/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zitiso/.gradle/caches/8.13/transforms/ed79a0827b6893e87659b1ed56cde8bb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zitiso/.gradle/caches/8.13/transforms/ed79a0827b6893e87659b1ed56cde8bb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zitiso/.gradle/caches/8.13/transforms/e71d381b589c55f50aeca5399a3397c8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zitiso/.gradle/caches/8.13/transforms/e71d381b589c55f50aeca5399a3397c8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/zitiso/.gradle/caches/8.13/transforms/15c558d63c72959a17de2eb51d1691d7/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/zitiso/.gradle/caches/8.13/transforms/15c558d63c72959a17de2eb51d1691d7/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/zitiso/.gradle/caches/8.13/transforms/0fdce7872af6205ba1e8581c8f527880/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/zitiso/.gradle/caches/8.13/transforms/0fdce7872af6205ba1e8581c8f527880/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/zitiso/.gradle/caches/8.13/transforms/afcda5f69de9a4ae0937d594f5df705f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/zitiso/.gradle/caches/8.13/transforms/afcda5f69de9a4ae0937d594f5df705f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/zitiso/AndroidStudioProjects/LEAP_2025_Demos/MaterialDemoApp/app/src/main/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/c60228fbb27942e80db6e99ca280d946/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/c60228fbb27942e80db6e99ca280d946/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/zitiso/.gradle/caches/8.13/transforms/c60228fbb27942e80db6e99ca280d946/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/zitiso/.gradle/caches/8.13/transforms/4dc9212d14e9087111f5316359ea3df8/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/f67d05b7fc5a4d50e5e9a8e82bf1f0ea/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/f67d05b7fc5a4d50e5e9a8e82bf1f0ea/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zitiso/.gradle/caches/8.13/transforms/e71d381b589c55f50aeca5399a3397c8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zitiso/.gradle/caches/8.13/transforms/e71d381b589c55f50aeca5399a3397c8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/zitiso/.gradle/caches/8.13/transforms/4dc9212d14e9087111f5316359ea3df8/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/zitiso/.gradle/caches/8.13/transforms/4dc9212d14e9087111f5316359ea3df8/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/zitiso/.gradle/caches/8.13/transforms/4dc9212d14e9087111f5316359ea3df8/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/zitiso/.gradle/caches/8.13/transforms/4dc9212d14e9087111f5316359ea3df8/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/zitiso/.gradle/caches/8.13/transforms/4dc9212d14e9087111f5316359ea3df8/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/zitiso/.gradle/caches/8.13/transforms/4dc9212d14e9087111f5316359ea3df8/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/zitiso/.gradle/caches/8.13/transforms/4dc9212d14e9087111f5316359ea3df8/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/f67d05b7fc5a4d50e5e9a8e82bf1f0ea/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/f67d05b7fc5a4d50e5e9a8e82bf1f0ea/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/zitiso/.gradle/caches/8.13/transforms/f67d05b7fc5a4d50e5e9a8e82bf1f0ea/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/76893d10cf54eead763941ea3bc93756/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/76893d10cf54eead763941ea3bc93756/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/76893d10cf54eead763941ea3bc93756/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.materialdemoapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/76893d10cf54eead763941ea3bc93756/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/76893d10cf54eead763941ea3bc93756/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/76893d10cf54eead763941ea3bc93756/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/76893d10cf54eead763941ea3bc93756/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/76893d10cf54eead763941ea3bc93756/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.materialdemoapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/76893d10cf54eead763941ea3bc93756/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/zitiso/.gradle/caches/8.13/transforms/76893d10cf54eead763941ea3bc93756/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/zitiso/.gradle/caches/8.13/transforms/b6f42a75e356bb2d6f4841d9f38bfbc1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
