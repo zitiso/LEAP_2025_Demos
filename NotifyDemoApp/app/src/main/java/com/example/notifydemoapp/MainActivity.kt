@@ -4,7 +4,6 @@ import android.Manifest
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.PendingIntent
-import android.app.TaskStackBuilder
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -21,26 +20,25 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
 import com.example.notifydemoapp.ui.theme.NotifyDemoAppTheme
+import androidx.core.net.toUri
 
 class MainActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         // Create the notification channel (Android 8.0+)
         myCreateNotificationChannel(
             context = this,
-            channelId = "com.example.MyNotificationsApp",
+            channelId = CHANNEL_ID,
             channelName = "Channel 1",
             channelDescription = "Channel for My Notifications App"
         )
@@ -55,6 +53,10 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+    }
+
+    companion object {
+        private const val CHANNEL_ID = "com.example.MyNotificationsApp"
     }
 }
 
@@ -85,23 +87,36 @@ fun MyNotifier() {
 
     Column(
         modifier = Modifier.fillMaxSize(),
-        verticalArrangement = Arrangement.Center,
+        verticalArrangement = Arrangement.spacedBy(20.dp, Alignment.CenterVertically),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        // Button 1: your existing "open activity" notification
         Button(
             onClick = {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
                     !hasNotificationPermission
                 ) {
-                    // Ask the user for permission first
                     launcher.launch(Manifest.permission.POST_NOTIFICATIONS)
                 } else {
-                    // Try to post (postNotification will re-check at call time)
                     postNotification(context)
                 }
             }
         ) {
-            Text(if (hasNotificationPermission) "Notify Now" else "Grant Permission")
+            Text(if (hasNotificationPermission) "Notify (open app)" else "Grant Permission")
+        }
+        // Button 2: post a notification whose content opens the browser to zitiso.com
+        Button(
+            onClick = {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
+                    !hasNotificationPermission
+                ) {
+                    launcher.launch(Manifest.permission.POST_NOTIFICATIONS)
+                } else {
+                    postBrowserNotification(context, "https://zitiso.com")
+                }
+            }
+        ) {
+            Text("Notify (open zitiso.com)")
         }
 
         Text(
@@ -117,41 +132,76 @@ fun MyNotifier() {
 private var notificationId = 0
 
 private fun postNotification(context: Context) {
-    // SAFETY CHECK: Always verify permission *right before* posting (API 33+)
+    // SAFETY CHECK (API 33+)
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
         val granted = ContextCompat.checkSelfPermission(
             context,
             Manifest.permission.POST_NOTIFICATIONS
         ) == PackageManager.PERMISSION_GRANTED
-        if (!granted) {
-            // No permission—bail out quietly or show a toast if you prefer
-            return
-        }
+        if (!granted) return
     }
 
-    // Build an intent to reopen MainActivity when the notification is tapped
-    val intent = Intent(context, MainActivity::class.java)
-    val pendingIntent: PendingIntent? = TaskStackBuilder.create(context).run {
-        addNextIntent(intent)
-        getPendingIntent(
-            0,
-            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
-        )
-    }
+    // Intent to reopen MainActivity when the notification is tapped
+    val activityIntent = Intent(context, MainActivity::class.java)
+    val activityPendingIntent = PendingIntent.getActivity(
+        context,
+        0,
+        activityIntent,
+        PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+    )
 
     val notification = NotificationCompat.Builder(context, "com.example.MyNotificationsApp")
-        .setSmallIcon(R.drawable.icons8_notification_100)
+        .setSmallIcon(R.drawable.icons8_notification_100) // ensure this exists; use android.R.drawable.ic_dialog_info if not
         .setContentTitle("Notifications App")
         .setContentText("${notificationId} : This is important!")
         .setPriority(NotificationCompat.PRIORITY_DEFAULT)
-        .setContentIntent(pendingIntent)
+        .setContentIntent(activityPendingIntent)
+        .setOngoing(true)
         .setAutoCancel(true)
         .build()
 
-    with(NotificationManagerCompat.from(context)) {
-        notify(notificationId, notification)
+    NotificationManagerCompat.from(context).notify(notificationId++, notification)
+}
+
+private fun postBrowserNotification(context: Context, url: String) {
+    // SAFETY CHECK (API 33+)
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+        val granted = ContextCompat.checkSelfPermission(
+            context,
+            Manifest.permission.POST_NOTIFICATIONS
+        ) == PackageManager.PERMISSION_GRANTED
+        if (!granted) return
     }
-    notificationId++
+
+    // PendingIntent that opens the browser to the given URL
+    val browserIntent = Intent(Intent.ACTION_VIEW, url.toUri()).apply {
+        addCategory(Intent.CATEGORY_BROWSABLE)
+        // NEW_TASK is fine here since we're potentially leaving the app
+        addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+    }
+    val browserPendingIntent = PendingIntent.getActivity(
+        context,
+        1, // different requestCode than the activity one
+        browserIntent,
+        PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+    )
+
+    val notification = NotificationCompat.Builder(context, "com.example.MyNotificationsApp")
+        .setSmallIcon(R.drawable.icons8_notification_100) // or android.R.drawable.ic_dialog_info
+        .setContentTitle("Open Zitiso")
+        .setContentText("Tap to open zitiso.com")
+        .setPriority(NotificationCompat.PRIORITY_DEFAULT)
+        .setContentIntent(browserPendingIntent) // tapping notification opens browser
+        .addAction(
+            0, // optional small icon for action button; 0=no icon
+            "Open",
+            browserPendingIntent
+        )
+        .setOngoing(true)
+        .setAutoCancel(true)
+        .build()
+
+    NotificationManagerCompat.from(context).notify(notificationId++, notification)
 }
 
 fun myCreateNotificationChannel(
@@ -160,7 +210,6 @@ fun myCreateNotificationChannel(
     channelName: String,
     channelDescription: String
 ) {
-    // Notification channels are only required on Android 8.0+ (API 26)
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
         val channel = NotificationChannel(
             channelId,
