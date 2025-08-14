@@ -11,6 +11,9 @@
       <SelectionState runConfigName="clicking_submit_adds_team_to_viewmodel_and_clears_fields()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="submit_disabled_until_both_fields_have_text_then_enabled()">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>
